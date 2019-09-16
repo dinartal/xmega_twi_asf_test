@@ -66,7 +66,7 @@
 #include <interrupt.h>
 
 // From module: NVM - Non Volatile Memory
-#include <nvm.h>
+//#include <nvm.h>
 
 // From module: PMIC - Programmable Multi-level Interrupt Controller
 #include <pmic.h>
@@ -89,13 +89,13 @@
 
 // From module: TWI - Two-Wire Interface - XMEGA implementation
 #include <twi_master.h>
-#include <twi_slave.h>
+//#include <twi_slave.h>
 #include <xmega_twi/twi_master.h>
-#include <xmega_twi/twi_slave.h>
+//#include <xmega_twi/twi_slave.h>
 
 // From module: TWI - Two-wire Master and Slave Interface
 #include <twim.h>
-#include <twis.h>
+//#include <twis.h>
 
 // From module: USB CDC Protocol
 #include <usb_protocol_cdc.h>
